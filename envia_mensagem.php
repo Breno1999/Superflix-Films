@@ -5,7 +5,7 @@ $email = isset( $_POST[ 'email' ] ) ? $_POST[ 'email' ] : null ;
 $assunto = isset ($_POST[ 'assunto' ] ) ? $_POST[ 'assunto' ] : null;
 $mensagem = isset( $_POST['mensagem']) ? $_POST['mensagem'] : null;
 
-$connect = mysqli_connect('127.0.0.1','root','','superflix', '3306');
+$connect = mysqli_connect('sql10.freesqldatabase.com','sql10348436','3CLi39vjV7','sql10348436', '3306');
 $query_select = "SELECT email FROM mensagem";
 $select = mysqli_query($connect, $query_select);
 $array = mysqli_fetch_array($select);

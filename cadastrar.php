@@ -6,7 +6,7 @@ $email = isset( $_POST[ 'email' ] ) ? $_POST[ 'email' ] : null ;
 $senha = isset ($_POST[ 'senha' ] ) ? $_POST[ 'senha' ] : null;
 $senha = md5($senha);
 
-$connect = mysqli_connect('127.0.0.1','root','','superflix', '3306');
+$connect = mysqli_connect('sql10.freesqldatabase.com','sql10348436','3CLi39vjV7','sql10348436', '3306');
 $query_select = "SELECT email FROM usuarios WHERE email = '$email'";
 $select = mysqli_query($connect, $query_select);
 $array = mysqli_fetch_array($select);

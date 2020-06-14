@@ -53,7 +53,7 @@
     ?>
 
     
-    <title>SuperFlix</title>
+    <title>SuperflixTorrents.com</title>
 
   </head>
   <body>
