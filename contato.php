@@ -12,6 +12,11 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+    
     <style>
       body{
         background-color: black;
@@ -42,7 +47,7 @@
   </head>
   <body>
   
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-danger">
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-danger">
       <div class="container">
       
           <a class="navbar-brand navbar-dark h5 mb-0" href="pagina_inicial.php">Inicio</a>
@@ -57,20 +62,20 @@
           <ul class="navbar-nav mr-auto">
 
               <li class="nav-item">
-                  <a class="nav-link" href="filmes.php">Filmes</a>
+                <a class="nav-link" href="filmes.php">Filmes</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="series.php">Séries</a>
+                <a class="nav-link" href="series.php">Séries</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="contato.php">Contato</a>
+                <a class="nav-link" href="contato.php">Contato</a>
               </li>
 
           </ul> 
           
-         <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto">
 
-             <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Redes Sociais</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Facebook</a>
@@ -88,9 +93,11 @@
 
           </ul>
 
+
         </div>
       </div>
    </nav>
+   <br>
    <br>
    <br>
    <br>
