@@ -88,7 +88,7 @@ a<!doctype html>
             <ul class="navbar-nav ml-5" id="Sair">
                 
                <li class="nav-item">
-                   <a class="nav-link font-weight-bold"  href="deslogar.php"><b>Sair</b></a>
+                   <a class="nav-link"  href="deslogar.php">Logado...\<b>Sair</b></a>
                 </li>
 
             </ul>
