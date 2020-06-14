@@ -93,7 +93,7 @@
               </div>
             </li>
             
-            <ul class="navbar-nav ml-5" id="sair">
+            <ul class="navbar-nav ml-5" id="Sair">
                 
                <li class="nav-item">
                    <a class="nav-link font-weight-bold"  href="deslogar.php"><b>Sair</b></a>
