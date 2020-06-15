@@ -52,7 +52,7 @@
         $logado = $_SESSION['email'];
     ?>
 
-    <title>Séries</title>
+    <title>Oi</title>
 
   </head>
   <body>
