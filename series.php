@@ -124,23 +124,23 @@
     <div class="carousel-inner" align="center"  width="500px" height="10px">
 
        <div class="carousel-item active">
-         <a href="#">
+           <a href="Download_SexEd.php">
             <img src="https://qph.fs.quoracdn.net/main-qimg-13e13269013e778c4ec9b976535cbe86" class="img-fluid d-block" class="img-fluid d-block"  width="650px" height="10px"></a>
        </div>  
 
        <div class="carousel-item">
-         <a href="#">
+         <a href="Download_MrRobot.php">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuIIKawOQX6jP3cAkSue2ZqeRsyv0rxOH_3Kox3dWlb-TcoktHCA&s" class="img-fluid d-block" 
             width="650px" height="10px"></a>
        </div>
 
        <div class="carousel-item">
-         <a href="#">
+           <a href="Download_LaCasa.php">
             <img src="https://dvqlxo2m2q99q.cloudfront.net/000_clients/1026022/page/1026022L7oPIvak.png" class="img-fluid d-block"  width="650px" height="10px"></a>
        </div>
 
        <div class="carousel-item">
-         <a href="#">
+         <a href="Download_VisaVis.php">
             <img src="https://i.ytimg.com/vi/O34MP1nTtoo/maxresdefault.jpg" class="img-fluid d-block"  
             width="650px" height="10px"></a>
        </div>
@@ -186,7 +186,7 @@
             <br>
             <br>
             <h5 class="card-title">Vis a Vis</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_VisaVis.php" role="button">Download</a>
           </div>
         </div>
 
@@ -196,7 +196,7 @@
             <br>
             <br>
             <h5 class="card-title">Flash</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Flash.php" role="button">Download</a>
           </div>
         </div>
 
@@ -206,7 +206,7 @@
             <br>
             <br>
             <h5 class="card-title">Mr Robot</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_MrRobot.php" role="button">Download</a>
           </div>
         </div>
 
@@ -216,7 +216,7 @@
             <br>
             <br>
             <h5 class="card-title">Uma Noite de Crime 2ª Temporada</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_ThePurgue.php" role="button">Download</a>
           </div>
         </div>
 
@@ -226,7 +226,7 @@
             <br>
             <br>
             <h5 class="card-title">Empire 5ª Temporada</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Empire.php" role="button">Download</a>
           </div>
         </div>
 
@@ -236,7 +236,7 @@
             <br>
             <br>
             <h5 class="card-title">La Casa de Papel</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_LaCasa.php" role="button">Download</a>
           </div>
         </div>
 
@@ -246,7 +246,7 @@
             <br>
             <br>
             <h5 class="card-title">Dark</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Dark.php" role="button">Download</a>
           </div>
         </div>
 
@@ -256,7 +256,7 @@
             <br>
             <br>
             <h5 class="card-title">Suits</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Suits.php" role="button">Download</a>
           </div>
         </div> 
 
@@ -272,7 +272,7 @@
 
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
           <div class="card-body">
-            <img src="https://cartt.ca/sites/default/files/styles/large/public/field/image/Netflix%20The%20100.jpg?itok=rzw5xrQ0" width="250px" height="310px">
+            <img src="https://media.fstatic.com/hTl0y8rvBacmKQ0YgW5lpvn1Zy4=/fit-in/290x478/smart/media/movies/covers/2016/01/the-100-3a-temporada_t113345.png" width="250px" height="310px">
             <br>
             <br>
             <h5 class="card-title">The 100</h5>

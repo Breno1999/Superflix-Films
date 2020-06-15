@@ -125,23 +125,23 @@
     <div class="carousel-inner" align="center"  width="500px" height="10px">
 
        <div class="carousel-item active">
-         <a href="#">
+           <a href="Download_SexEd.php">
             <img src="https://qph.fs.quoracdn.net/main-qimg-13e13269013e778c4ec9b976535cbe86" class="img-fluid d-block" class="img-fluid d-block"  width="650px" height="10px"></a>
        </div>  
 
        <div class="carousel-item">
-         <a href="#">
+         <a href="Download_MrRobot.php">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuIIKawOQX6jP3cAkSue2ZqeRsyv0rxOH_3Kox3dWlb-TcoktHCA&s" class="img-fluid d-block" 
             width="650px" height="10px"></a>
        </div>
 
        <div class="carousel-item">
-         <a href="#">
+           <a href="Download_LaCasa.php">
             <img src="https://dvqlxo2m2q99q.cloudfront.net/000_clients/1026022/page/1026022L7oPIvak.png" class="img-fluid d-block"  width="650px" height="10px"></a>
        </div>
 
        <div class="carousel-item">
-         <a href="#">
+         <a href="Download_VisaVis.php">
             <img src="https://i.ytimg.com/vi/O34MP1nTtoo/maxresdefault.jpg" class="img-fluid d-block"  
             width="650px" height="10px"></a>
        </div>
@@ -212,7 +212,7 @@
             <br>
             <br>
             <h5 class="card-title">Uma Noite de Crime 2ª Temporada</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_ThePurgue.php" role="button">Download</a>
           </div>
         </div>
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
@@ -221,7 +221,7 @@
             <br>
             <br>
             <h5 class="card-title">Empire 5ª Temporada</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Empire.php" role="button">Download</a>
           </div>
         </div>
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
