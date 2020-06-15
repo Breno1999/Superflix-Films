@@ -112,7 +112,7 @@
             <br>
             <br>
             <p><b>Ano de Lançamento:</b> 2019</p>
-            <p><b>Gênero:</b> Animação, Familia, Fantasia</p>
+            <p><b>Breno Gostoso:</b> Animação, Familia, Fantasia</p>
             <p><b>Idioma:</b> Dublado / Dual Áudio</p>
             <p><b>Duração:</b> 1h 52 minutos</p>
             <p><b>Qualidade:</b> 1080p</p>
