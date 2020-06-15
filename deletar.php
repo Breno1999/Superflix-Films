@@ -24,7 +24,7 @@
     {         
             echo"<script language='javascript' type='text/javascript'>
           alert('Dados informados não são válidos!');window.location.
-          href='index.php'</script>" . $conecta->error."<br>";     
+          href='deletar_tela.php'</script>" . $conecta->error."<br>";     
              
     }
         
