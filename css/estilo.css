@@ -9,27 +9,27 @@ body{
 	background-size: 100%;
 	background-repeat: no-repeat; 
 	background-color: black;
-    font-family: arial;
-    color: white;
+        font-family: arial;
+        color: white;
 }
 
 input{
 
-	display: block;
-	height: 45px;
-	width: 380px;
-	margin: 15px;
-	border-radius: 30px;
-	border: 1px solid black;
-	font-size: 10pt;
-	padding: 10px 20px;
-	outline: none;
+	display: block !important;
+	height: 45px !important;
+	width: 380px !important;
+	margin: 15px !important;
+	border-radius: 30px !important;
+	border: 1px solid black !important;
+	font-size: 10pt !important;
+	padding: 10px 20px !important;
+	outline: none !important;
 }
 
 div#corpo-form{
 	/*background-color: red;*/
-	width: 420px;
-	margin: 150px auto 0px auto;
+	width: 420px !important;
+	margin: 150px auto 0px auto !important;
 }
 
 div#corpo-form-cad{
@@ -39,14 +39,14 @@ div#corpo-form-cad{
 }
 
 div#corpo-form h1{
-	padding: 20px;
+	padding: 20px !important;
 }
 
 a{
 	color: white;
 	text-decoration: none;
 	text-align: center;
-	display: block;
+	display: block !important;
 }
 
 a:hover{
@@ -54,8 +54,19 @@ a:hover{
 }
 
 input[type="submit"]{
-	background-color: #999999;
-	border: none;
-	color:white;
-	cursor: pointer;
+	background-color: #999999!important;
+	border: none !important;
+	color:white !important;
+	cursor: pointer !important;
+   
+}
+
+.link-form{
+    margin-left: 20px;
+    margin-top: 200px;
+    float: left; 
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+ 
 }
