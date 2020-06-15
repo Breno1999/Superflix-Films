@@ -117,7 +117,7 @@
             <br>
             <br>
             <h5 class="card-title">Grown-ish</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_GrownIsh.php" role="button">Download</a>
           </div>
         </div>
 
@@ -127,7 +127,7 @@
             <br>
             <br>
             <h5 class="card-title">Prison Break</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_PrisonBreak.php" role="button">Download</a>
           </div>
         </div>
 
@@ -137,7 +137,7 @@
             <br>
             <br>
             <h5 class="card-title">Breaking Bad</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_BreakingBad.php" role="button">Download</a>
           </div>
         </div>
 
@@ -147,7 +147,7 @@
             <br>
             <br>
             <h5 class="card-title">Vikings</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Vikings.php" role="button">Download</a>
           </div>
         </div>
 
@@ -157,7 +157,7 @@
             <br>
             <br>
             <h5 class="card-title">Elite</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Elite.php" role="button">Download</a>
           </div>
         </div>
 
@@ -167,7 +167,7 @@
             <br>
             <br>
             <h5 class="card-title">Grey's Anatomy</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_GreysAnatomy.php" role="button">Download</a>
           </div>
         </div>
 
@@ -177,7 +177,7 @@
             <br>
             <br>
             <h5 class="card-title">Riverdale</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Riverdale.php" role="button">Download</a>
           </div>
         </div>
 
@@ -187,7 +187,7 @@
             <br>
             <br>
             <h5 class="card-title">Bates Motel</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_BatesMotel.php" role="button">Download</a>
           </div>
         </div> 
 
@@ -197,7 +197,7 @@
             <br>
             <br>
             <h5 class="card-title">Olhos que Condenam</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_OlhosQueCondenam.php" role="button">Download</a>
           </div>
         </div>
 
@@ -207,7 +207,7 @@
             <br>
             <br>
             <h5 class="card-title">Blindspot</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_BlindSpot.php" role="button">Download</a>
           </div>
         </div> 
   </div>
