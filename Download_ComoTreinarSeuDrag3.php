@@ -44,7 +44,7 @@
         $logado = $_SESSION['email'];
     ?>
 
-    <title>Alladin</title>
+    <title>Como Treinar O Seu Dragão 3: O Mundo Escondido</title>
 
   </head>
   <body>

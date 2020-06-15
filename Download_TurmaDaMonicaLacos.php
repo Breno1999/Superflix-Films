@@ -44,7 +44,7 @@
         $logado = $_SESSION['email'];
     ?>
 
-    <title>Alladin</title>
+    <title>Turma da Mônica: Laços</title>
 
   </head>
   <body>
