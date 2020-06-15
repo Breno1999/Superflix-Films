@@ -23,7 +23,7 @@
     else 
     {         
             echo"<script language='javascript' type='text/javascript'>
-          alert('Nao foi possivel apagar sua conta!');window.location.
+          alert('Dados informados não sao válidos!');window.location.
           href='index.php'</script>" . $conecta->error."<br>";     
              
     }
