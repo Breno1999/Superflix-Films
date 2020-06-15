@@ -217,8 +217,8 @@
     <div class="row">
       <div class="col-12 text-center">
         <p class="ml-0" align="center">
-          <a class="text-white" href="series.html"> 1 </a>
-          <a class="text-white" href="series_2.html"> 2 </a>
+          <a class="text-white" href="series.php"> 1 </a>
+          <a class="text-white" href="series_2.php"> 2 </a>
           <a class="text-white" href="#"> 3 </a>
           <a class="text-white" href="#"> 4 </a>
         </p>

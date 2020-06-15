@@ -108,7 +108,7 @@
         <div class="card border-dark text-dark bg-danger mb-3">
           <div class="card-header bg-transparent border-success"><b>The 100 - 1ª Temporada (2014) Dublado / Dual Áudio BluRay 720p | 1080p </b></div>
           <div class="card-body text-dark">
-            <img align="left" src="https://cartt.ca/sites/default/files/styles/large/public/field/image/Netflix%20The%20100.jpg?itok=rzw5xrQ0" width="250px" height="290px">
+            <img align="left" src="https://media.fstatic.com/hTl0y8rvBacmKQ0YgW5lpvn1Zy4=/fit-in/290x478/smart/media/movies/covers/2016/01/the-100-3a-temporada_t113345.png" width="250px" height="290px">
             <br>
             <br>
             <p><b>Ano de Lançamento:</b> 2014</p>
