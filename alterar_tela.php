@@ -10,7 +10,7 @@
                 <form action="alterar_senha.php" method="POST">
 
 			<input name="email" type="email" placeholder="Email" maxlength="40">
-                        <input name="senha" type="password" placeholder="Nova senha" maxlength="15">
+                        <input name="novaSenha" type="password" placeholder="Nova senha" maxlength="15">
 			<input name="alterar" type="submit" value="Alterar">
 
 		</form>
