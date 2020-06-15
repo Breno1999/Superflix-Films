@@ -222,7 +222,7 @@
             <br>
             <br>
             <h5 class="card-title">Homem Aranha: Longe de casa</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_HALongeDeCasa.php" role="button">Download</a>
           </div>
         </div>
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
@@ -258,7 +258,7 @@
             <br>
             <br>
             <h5 class="card-title">Vidro</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Vidro.php" role="button">Download</a>
           </div>
         </div>
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
@@ -267,7 +267,7 @@
             <br>
             <br>
             <h5 class="card-title">Capitã Marvel</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_CapitaMarvel.php" role="button">Download</a>
           </div>
         </div> 
   </div>

@@ -129,7 +129,7 @@
             <br>
             <br>
             <h5 class="card-title">O Rei Leão</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_OReiLeao.php" role="button">Download</a>
           </div>
         </div>
 
@@ -139,7 +139,7 @@
             <br>
             <br>
             <h5 class="card-title">Homem Aranha: Longe de casa</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_HALongeDeCasa.php" role="button">Download</a>
           </div>
         </div>
 
@@ -149,7 +149,7 @@
             <br>
             <br>
             <h5 class="card-title">Homem Aranha: No Aranhaverso</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_HANoAranhaVerso.php" role="button">Download</a>
           </div>
         </div>
 
@@ -159,7 +159,7 @@
             <br>
             <br>
             <h5 class="card-title">Pikachu</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Pikachu.php" role="button">Download</a>
           </div>
         </div>
 
@@ -169,7 +169,7 @@
             <br>
             <br>
             <h5 class="card-title">Vingadores: Ultimato</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_VingadoresUltimato.php" role="button">Download</a>
           </div>
         </div>
 
@@ -179,7 +179,7 @@
             <br>
             <br>
             <h5 class="card-title">Annabelle 3</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Anabelle3.php" role="button">Download</a>
           </div>
         </div>
 
@@ -189,7 +189,7 @@
             <br>
             <br>
             <h5 class="card-title">Alita Anjo de Combate</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_AlitaAnjodeCombate.php" role="button">Download</a>
           </div>
         </div> 
 
@@ -199,7 +199,7 @@
             <br>
             <br>
             <h5 class="card-title">Rocketman</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Rocketman.php" role="button">Download</a>
           </div>
         </div>
 
@@ -209,7 +209,7 @@
             <br>
             <br>
             <h5 class="card-title">X-men: Fênix Negra</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_XMenFênixNegra.php" role="button">Download</a>
           </div>
         </div> 
   </div>

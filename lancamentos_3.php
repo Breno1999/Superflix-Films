@@ -129,7 +129,7 @@
             <br>
             <br>
             <h5 class="card-title">Pets 2</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Pets2.php" role="button">Download</a>
           </div>
         </div>
 
@@ -139,7 +139,7 @@
             <br>
             <br>
             <h5 class="card-title">MIB: Homens de Preto - Internacional</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_MIBInternacional.php" role="button">Download</a>
           </div>
         </div>
 
@@ -149,7 +149,7 @@
             <br>
             <br>
             <h5 class="card-title">Como Treinar o Seu Dragão 3</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_ComoTreinarSeuDrag3.php" role="button">Download</a>
           </div>
         </div>
 
@@ -159,7 +159,7 @@
             <br>
             <br>
             <h5 class="card-title">Shazam</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Shazam.php" role="button">Download</a>
           </div>
         </div>
 
@@ -169,7 +169,7 @@
             <br>
             <br>
             <h5 class="card-title">Toy Story 4</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_ToyStory4.php" role="button">Download</a>
           </div>
         </div>
 
@@ -179,7 +179,7 @@
             <br>
             <br>
             <h5 class="card-title">Cemitério Maldito</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_CemitérioMaldito.php" role="button">Download</a>
           </div>
         </div>
 
@@ -189,7 +189,7 @@
             <br>
             <br>
             <h5 class="card-title">Godzilla II: O Rei dos Monstros</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Godzilla2Rei.php" role="button">Download</a>
           </div>
         </div> 
 
@@ -199,7 +199,7 @@
             <br>
             <br>
             <h5 class="card-title">Turma da Mônica: Laços</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_TurmaDaMonicaLacos.php" role="button">Download</a>
           </div>
         </div>
 
