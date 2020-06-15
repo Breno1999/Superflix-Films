@@ -266,7 +266,7 @@
             <br>
             <br>
             <h5 class="card-title">Arrow</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Arrow.php" role="button">Download</a>
           </div>
         </div>
 
@@ -276,7 +276,7 @@
             <br>
             <br>
             <h5 class="card-title">The 100</h5>
-            <a class="btn btn-primary btn-sm" href="#" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_The100.php" role="button">Download</a>
           </div>
         </div> 
   </div>
