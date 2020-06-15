@@ -11,7 +11,9 @@
 			<input name="email" type="email" placeholder="Usuário">
 			<input name="senha" type="password" placeholder="Senha">
 			<input type="submit" name="entrar" value="ACESSAR">
-                        <a href="cadastrar_tela.php">Ainda não é inscrito?<strong>cadastre-se!</strong></a>
+                        <br>
+                        <a href="alterar_tela.php"><h3>Esqueceu sua senha?<strong>clique aqui!</h3></strong></a>
+                        <a href="cadastrar_tela.php"><h4>Ainda não é inscrito?<strong>cadastre-se!</h4></strong></a>
 
 		</form>
 		</div>
