@@ -20,13 +20,13 @@
          
             } 
     }
-        else 
-        {         
+    else 
+    {         
             echo"<script language='javascript' type='text/javascript'>
           alert('Nao foi possivel apagar sua conta!');window.location.
           href='index.php'</script>" . $conecta->error."<br>";     
              
-        }
+    }
         
     $conecta->close(); 
 
