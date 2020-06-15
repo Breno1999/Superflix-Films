@@ -44,7 +44,7 @@
         $logado = $_SESSION['email'];
     ?>
 
-    <title>Alladin</title>
+    <title>Grown-ish</title>
 
   </head>
   <body>

@@ -58,7 +58,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-danger">
       <div class="container">
       
-        <a class="navbar-brand navbar-dark h5 mb-0" href="index.php">Inicio</a>
+          <a class="navbar-brand navbar-dark h5 mb-0" href="pagina_inicial.php">Inicio</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
           <spam class="navbar-toggler-icon"></spam>
@@ -70,13 +70,13 @@
           <ul class="navbar-nav mr-auto">
 
               <li class="nav-item">
-                <a class="nav-link" href="filmes.html">Filmes</a>
+                <a class="nav-link" href="filmes.php">Filmes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="series.html">Séries</a>
+                <a class="nav-link" href="series.php">Séries</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contato.html">Contato</a>
+                <a class="nav-link" href="contato.php">Contato</a>
               </li>
 
           </ul> 
