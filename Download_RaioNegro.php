@@ -44,7 +44,7 @@
         $logado = $_SESSION['email'];
     ?>
 
-    <title>Arrow</title>
+    <title>Raio Negro</title>
 
   </head>
   <body>
@@ -106,18 +106,18 @@
 
    <div class="container" align="center">
         <div class="card border-dark text-dark bg-danger mb-3">
-          <div class="card-header bg-transparent border-success"><b>Arrow 1ª Temporada (2012) Dublado / Dual Áudio BluRay 720p | 1080p </b></div>
+          <div class="card-header bg-transparent border-success"><b>Raio Negro - 1ª Temporada Completa Torrent (2019) Dublado / Dual Áudio BluRay 720p | 1080p </b></div>
           <div class="card-body text-dark">
-            <img align="left" src="https://images-na.ssl-images-amazon.com/images/I/91lPMgf0ZdL._SX425_.jpg" width="250px" height="290px">
+            <img align="left" src="https://img.elo7.com.br/product/zoom/26A8407/big-poster-serie-raio-negro-lo01-tamanho-90x60-cm-presente-geek.jpg" width="250px" height="290px">
             <br>
             <br>
             <p><b>Ano de Lançamento:</b> 2012</p>
-            <p><b>Gênero:</b>  Crime, Drama, Mistério, Ação, Aventura</p>
+            <p><b>Gênero:</b>  Ação, Drama, Ficção</p>
             <p><b>Idioma:</b> Dublado / Dual Áudio</p>
-            <p><b>Duração:</b>  0h 42Min.</p>
+            <p><b>Duração:</b>  43 Minutos</p>
             <p><b>Qualidade:</b> 1080p</p>
            </div>
-           <div class="card-footer"><a class="btn btn-primary btn-sm" href="magnet:?xt=urn:btih:90FBB1F81C334CBDD32A091B30FF86580FFCDB80&dn=Arqueiro%202012%20-%201%c2%aa%20Temporada%20Completa%20WWW.BLUDV.COM&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce" role="button">Download</a></div>
+           <div class="card-footer"><a class="btn btn-primary btn-sm" href="#" role="button">Download</a></div>
         </div>
   </div>
 
