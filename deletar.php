@@ -14,9 +14,10 @@
     
         if ($conecta->query($sql) === TRUE) 
             {         
+            
                 echo"<script language='javascript' type='text/javascript'>
                 alert('Conta excluida com sucesso!');window.location.
-                href='index.php'</script>";     
+                href='deslogar.php'</script>";     
          
             } 
     }
