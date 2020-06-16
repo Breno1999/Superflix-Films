@@ -14,14 +14,14 @@
          {         
             echo"<script language='javascript' type='text/javascript'>
           alert('Senha alterada com sucesso!');window.location.
-          href='index.php'</script>";     
+          href='alterar_tela.php'</script>";     
          
          } 
         else 
         {         
             echo"<script language='javascript' type='text/javascript'>
           alert('Nao foi possivel alterar sua senha!');window.location.
-          href='index.php'</script>" . $conecta->error."<br>";     
+          href='alterar_tela.php'</script>" . $conecta->error."<br>";     
              
         }     
         

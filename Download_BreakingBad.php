@@ -88,9 +88,14 @@
             
             <ul class="navbar-nav ml-5" id="Sair">
                 
-               <li class="nav-item">
-                   <a class="nav-link"  href="deslogar.php">Logado...\<b>Sair</b></a>
-                </li>
+               <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop"><b>Conta</b></a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="alterar_tela.php">Alterar senha</a>
+                  <a class="dropdown-item" href="deletar_tela.php">Excluir conta</a>
+                  <a class="dropdown-item" href="deslogar.php">Sair</a>
+              </div>
+              </li>
 
             </ul>
 
