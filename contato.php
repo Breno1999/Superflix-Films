@@ -23,6 +23,17 @@
         color: white;
       }
       
+      #container-form{
+          height: 200px;
+          width: 700px
+      }
+      
+      #input-form{
+          position: absolute;
+          top: 85%;
+          left: 44%;
+      }
+      
     </style>
     
     <?php 
@@ -72,6 +83,17 @@
               </li>
 
           </ul> 
+            
+            <div>
+                <form class="form-inline my-2 my-lg-1">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        </div>
+                    </div>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
           
           <ul class="navbar-nav ml-auto">
 
@@ -85,8 +107,8 @@
             
             <ul class="navbar-nav ml-5" id="Sair">
                 
-               <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop"><b>Conta</b></a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop"><b>Conta</b></a>
               <div class="dropdown-menu">
                   <a class="dropdown-item" href="alterar_tela.php">Alterar senha</a>
                   <a class="dropdown-item" href="deletar_tela.php">Excluir conta</a>
@@ -97,8 +119,8 @@
             </ul>
 
           </ul>
-
-
+         
+         
         </div>
       </div>
    </nav>
@@ -109,7 +131,7 @@
    <br>
    
 
-   <div class="container theme-showcase" role="main">
+   <div id="container-form" class="container theme-showcase" role="main">
       <div class="page-header">
         <h1 class="ml-0" align="left">Pagina de Contato</h1>
       </div>
@@ -151,7 +173,7 @@
           </div>
         </div>
         
-        <input class="btn btn-success" type="submit" value="Enviar" onclick="return validar_form_contato()">
+          <input id="input-form" class="btn btn-success" type="submit" value="Enviar" onclick="return validar_form_contato()">
       </form>
     </div>
 

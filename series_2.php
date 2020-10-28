@@ -16,7 +16,48 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    
+    <script>
+
+    jQuery(document).ready(function() {
+
+    var offset = 300;
+
+    var duration = 500;
+
+    jQuery(window).scroll(function() {
+
+    if (jQuery(this).scrollTop() > offset) {
+
+    jQuery('.backtotop').fadeIn(duration);
+
+    } else {
+
+    jQuery('.backtotop').fadeOut(duration);
+
+    }
+
+    });
+
+
+
+    jQuery('.backtotop').click(function(event) {
+
+    event.preventDefault();
+
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    
+    return false;
+
+    })
+
+    });
+
+    </script>
+    
     <style>
+        
       body{
         background-color: black;
         color: white;
@@ -31,6 +72,43 @@
         width: 290px;
         height: 30px;
       }
+      
+      .backtotop {
+
+       position: fixed;
+
+       bottom: 10px; /* increase value to move position up */
+
+       right: 35px; /* increase value to move position left */
+
+       color: #000000; /* color of text */
+
+       font-size: 12px; /* changes size of text */
+
+       padding: 10px; /* add space around the text */
+
+       text-transform: uppercase; /* change text to all caps */
+
+       letter-spacing: 1.0px; /* space between letters */
+
+       }
+
+
+
+       .backtotop:hover {
+
+       color: #ffffff; /* color of text on hover over */
+
+       text-decoration: none; /* no underline */
+
+       bottom: 10px; /* increase value to move position up */
+
+       right: 35px; /* increase value to move position left */
+
+       padding: 10px; /* add space around the text */
+
+       }
+      
     </style>
     
     <?php 
@@ -65,7 +143,7 @@
         </button>
       
 
-      <div class="collapse navbar-collapse" id="navbarSite">
+        <div class="collapse navbar-collapse" id="navbarSite">
         
           <ul class="navbar-nav mr-auto">
 
@@ -80,10 +158,21 @@
               </li>
 
           </ul> 
+            
+            <div>
+                <form class="form-inline my-2 my-lg-1">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        </div>
+                    </div>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
           
-         <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto">
 
-             <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Redes Sociais</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Facebook</a>
@@ -93,8 +182,8 @@
             
             <ul class="navbar-nav ml-5" id="Sair">
                 
-               <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop"><b>Conta</b></a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop"><b>Conta</b></a>
               <div class="dropdown-menu">
                   <a class="dropdown-item" href="alterar_tela.php">Alterar senha</a>
                   <a class="dropdown-item" href="deletar_tela.php">Excluir conta</a>
@@ -105,9 +194,9 @@
             </ul>
 
           </ul>
-
-      </div>
-
+         
+         
+        </div>
       </div>
    </nav>
    <br>
@@ -138,7 +227,7 @@
 
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
           <div class="card-body">
-            <img src="https://img.over-blog-kiwi.com/0/99/48/38/20180913/ob_8d3ee5_breaking-bad-saison4.jpg" width="250px" height="310px">
+            <img src="https://presleyson.com.br/wp-content/uploads/2018/12/breaking-bad-800x800-min.png" width="250px" height="310px">
             <br>
             <br>
             <h5 class="card-title">Breaking Bad</h5>
@@ -230,6 +319,9 @@
       </div>
     </div>
 </div>
+  
+<a href="#" class="backtotop"><img src="https://imgur.com/zuTLdei.png" width="50px" height="50px" alt="back to top" /></a>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

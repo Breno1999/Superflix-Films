@@ -21,20 +21,10 @@
         background-color: black;
         color: white;
       }
-
-      .card{
-        width: 600px;
-        height: 440px;
-      }
-
-      #rodapé{
-        width: 290px;
-        height: 30px;
-      }
       
       .link-form{
                     margin-left: 20px !important;
-                    margin-top: 105px !important;
+                    margin-top: 120px !important;
                     float: left !important; 
                     font-family: verdana !important;
                     color: white !important;
@@ -45,10 +35,10 @@
       div#corpo-form{
 	/*background-color: red;*/
 	width: 420px !important;
-	margin: 150px auto 0px auto !important;
+	margin: 126px auto 0px auto !important;
 }
 
-    div#corpo-form-cad{
+      div#corpo-form-cad{
 	/*background-color: red;*/
 	width: 420px;
 	margin: 80px auto 0px auto;
@@ -77,7 +67,7 @@
    
     }
     
-    input{
+    .input-form{
 
 	display: block !important;
 	height: 45px !important;
@@ -88,6 +78,10 @@
 	font-size: 10pt !important;
 	padding: 10px 20px !important;
 	outline: none !important;
+    }
+    
+    #alerta {
+        margin-top: 1px !important;
     }
     </style>
     
@@ -121,7 +115,7 @@
         </button>
       
 
-      <div class="collapse navbar-collapse" id="navbarSite">
+        <div class="collapse navbar-collapse" id="navbarSite">
         
           <ul class="navbar-nav mr-auto">
 
@@ -136,10 +130,21 @@
               </li>
 
           </ul> 
+            
+            <div>
+                <form class="form-inline my-2 my-lg-1">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        </div>
+                    </div>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
           
           <ul class="navbar-nav ml-auto">
 
-             <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Redes Sociais</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Facebook</a>
@@ -161,27 +166,33 @@
             </ul>
 
           </ul>
-
-
-      </div>
-
+         
+         
+        </div>
       </div>
    </nav>
    <br>
    <br>
+   <br>
    
    
+   <div id="alerta" class="alert alert-warning" role="alert">
+        <strong>Atenção!</strong> Após excluir sua conta, não será possível recupera-la novamente.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
             
 
         <div id="corpo-form">
                     <font color="white"><h1 align="center">Excluir conta:</h1></font>
                 <form action="deletar.php" method="POST">
 
-                        <input name="email" type="email" placeholder="Email" maxlength="40">
+                        <input class="input-form" name="email" type="email" placeholder="Email" maxlength="40">
                       
-                        <input name="senha" type="password" placeholder="Senha" maxlength="15">
+                        <input class="input-form" name="senha" type="password" placeholder="Senha" maxlength="15">
     
-			<input name="deletar" type="submit" value="Excluir">
+			<input class="input-form" name="deletar" type="submit" value="Excluir">
                         
                 </form>
                  

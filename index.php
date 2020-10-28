@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="CSS/estilo.css">
 	</head>
 	<body>
+            
 		<div id="corpo-form">
 		<h1 align="center">Entrar</h1>
 		<form action="logar.php" method="POST" >

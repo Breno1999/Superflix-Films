@@ -5,7 +5,7 @@
     $senha = isset( $_POST[ 'senha' ] ) ? $_POST[ 'senha' ] : null ;
     $senha = md5($senha);
     
-    $conecta = mysqli_connect('sql10.freesqldatabase.com','sql10348436','3CLi39vjV7','sql10348436', '3306');
+    $conecta = mysqli_connect('127.0.0.1','root','','superflix', '3306');
     $tenta_achar = "SELECT * FROM usuarios WHERE email='$email' AND senha='$senha'" ;
     $resultado = $conecta->query($tenta_achar);
     $user = mysqli_fetch_assoc($resultado);

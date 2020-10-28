@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
 
@@ -16,7 +16,48 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    
+    <script>
+
+    jQuery(document).ready(function() {
+
+    var offset = 300;
+
+    var duration = 500;
+
+    jQuery(window).scroll(function() {
+
+    if (jQuery(this).scrollTop() > offset) {
+
+    jQuery('.backtotop').fadeIn(duration);
+
+    } else {
+
+    jQuery('.backtotop').fadeOut(duration);
+
+    }
+
+    });
+
+
+
+    jQuery('.backtotop').click(function(event) {
+
+    event.preventDefault();
+
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    
+    return false;
+
+    })
+
+    });
+
+    </script>
+    
     <style>
+        
       body{
         background-color: black;
         color: white;
@@ -31,7 +72,42 @@
         width: 290px;
         height: 30px;
       }
+      
+      .backtotop {
 
+       position: fixed;
+
+       bottom: 10px; /* increase value to move position up */
+
+       right: 35px; /* increase value to move position left */
+
+       color: #000000; /* color of text */
+
+       font-size: 12px; /* changes size of text */
+
+       padding: 10px; /* add space around the text */
+
+       text-transform: uppercase; /* change text to all caps */
+
+       letter-spacing: 1.0px; /* space between letters */
+
+       }
+
+
+
+       .backtotop:hover {
+
+       color: #ffffff; /* color of text on hover over */
+
+       text-decoration: none; /* no underline */
+
+       bottom: 10px; /* increase value to move position up */
+
+       right: 35px; /* increase value to move position left */
+
+       padding: 10px; /* add space around the text */
+
+       }
       
     </style>
     
@@ -44,7 +120,7 @@
         {
             session_unset();//remove todas as variáveis de sessão
             echo "<script>
-                alert('Esta página só pode ser acessada por usuário logado');
+                alert('Esta página só pode ser acessada por usuário logado!');
                 window.location.href = 'index.php';
                 </script>";
 
@@ -57,7 +133,7 @@
 
   </head>
   <body>
-  
+      
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-danger">
       <div class="container">
       
@@ -83,6 +159,17 @@
               </li>
 
           </ul> 
+            
+            <div>
+                <form class="form-inline my-2 my-lg-1">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        </div>
+                    </div>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
           
           <ul class="navbar-nav ml-auto">
 
@@ -108,8 +195,8 @@
             </ul>
 
           </ul>
-
-
+         
+         
         </div>
       </div>
    </nav>
@@ -117,6 +204,7 @@
    <br>
    <br>
    <br>
+  
 
    <div id="carouselSite" class="carousel slide" data-ride="carousel">
 
@@ -289,6 +377,8 @@
       </div>
     </div>
 </div> 
+
+<a href="#" class="backtotop"><img src="https://imgur.com/zuTLdei.png" width="50px" height="50px" alt="back to top" /></a>
 
 
     <!-- Optional JavaScript -->

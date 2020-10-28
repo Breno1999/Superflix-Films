@@ -3,8 +3,8 @@
 		<meta charset="utf-8"/>
 		<title>Alterar</title>
                 
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
 
@@ -21,20 +21,10 @@
         background-color: black;
         color: white;
       }
-
-      .card{
-        width: 600px;
-        height: 440px;
-      }
-
-      #rodapé{
-        width: 290px;
-        height: 30px;
-      }
       
       .link-form{
                     margin-left: 20px !important;
-                    margin-top: 105px !important;
+                    margin-top: 60px !important;
                     float: left !important; 
                     font-family: verdana !important;
                     color: white !important;
@@ -48,7 +38,7 @@
 	margin: 150px auto 0px auto !important;
 }
 
-    div#corpo-form-cad{
+      div#corpo-form-cad{
 	/*background-color: red;*/
 	width: 420px;
 	margin: 80px auto 0px auto;
@@ -77,7 +67,7 @@
    
     }
     
-    input{
+    .input-form{
 
 	display: block !important;
 	height: 45px !important;
@@ -121,7 +111,7 @@
         </button>
       
 
-      <div class="collapse navbar-collapse" id="navbarSite">
+        <div class="collapse navbar-collapse" id="navbarSite">
         
           <ul class="navbar-nav mr-auto">
 
@@ -136,10 +126,21 @@
               </li>
 
           </ul> 
+            
+            <div>
+                <form class="form-inline my-2 my-lg-1">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        </div>
+                    </div>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
           
           <ul class="navbar-nav ml-auto">
 
-             <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Redes Sociais</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Facebook</a>
@@ -150,7 +151,7 @@
             <ul class="navbar-nav ml-5" id="Sair">
                 
               <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop"><b>Conta</b></a>
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop"><b>Conta</b></a>
               <div class="dropdown-menu">
                   <a class="dropdown-item" href="alterar_tela.php">Alterar senha</a>
                   <a class="dropdown-item" href="deletar_tela.php">Excluir conta</a>
@@ -161,10 +162,9 @@
             </ul>
 
           </ul>
-
-
-      </div>
-
+         
+         
+        </div>
       </div>
    </nav>
    <br>
@@ -172,13 +172,14 @@
    
             
             
-		<div id="corpo-form">
+        <div id="corpo-form">
                     <font color="white"><h1 align="center">Alterar</h1></font>
                 <form action="alterar_senha.php" method="POST">
 
-                        <input name="email" type="email" placeholder="Email" maxlength="40">
-                        <input name="novaSenha" type="password" placeholder="Nova senha" maxlength="15">
-			<input name="alterar" type="submit" value="Alterar">
+                    <input class="input-form" name="email" type="email" placeholder="Email" maxlength="40">
+                        <input class="input-form" name="novaSenha" type="password" placeholder="Nova senha" maxlength="15">
+                        <input class="input-form" name="confirmarSenha" type="password" placeholder="Confirmar Senha" maxlength="15">
+			<input class="input-form" name="alterar" type="submit" value="Alterar">
                         
                                                            
 		</form>
