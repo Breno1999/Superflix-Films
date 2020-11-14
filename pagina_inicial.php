@@ -53,6 +53,7 @@
     })
 
     });
+    
 
     </script>
     
@@ -61,6 +62,10 @@
       body{
         background-color: black;
         color: white;
+      }
+      
+      #carouselSite{
+          margin-top: 60px !important;
       }
 
       .card{
@@ -161,13 +166,13 @@
           </ul> 
             
             <div>
-                <form class="form-inline my-2 my-lg-1">
+                <form class="form-inline my-2 my-lg-1" method="POST" action="pesquisar.php">
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                            <input class="form-control mr-2" name="pesquisar" type="search" placeholder="Buscar..." aria-label="Search">
                         </div>
                     </div>
-                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit" name="buscar">Pesquisar</button>
                 </form>
             </div>
           
@@ -204,6 +209,18 @@
    <br>
    <br>
    <br>
+   <br>
+   <br>
+ 
+   
+   <div class="container" id="TituloCarousel">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="ml-0" align="left">Novidades da Semana:</h1>
+        
+      </div>
+    </div>
+  </div>    
   
 
    <div id="carouselSite" class="carousel slide" data-ride="carousel">
@@ -332,7 +349,7 @@
             <br>
             <br>
             <h5 class="card-title">Aladdin</h5>
-            <a class="btn btn-primary btn-sm" href="Download_Alladin.php" role="button">Download</a>
+            <a class="btn btn-primary btn-sm" href="Download_Aladdin.php" role="button">Download</a>
           </div>
         </div>
         <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">

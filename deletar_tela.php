@@ -24,7 +24,7 @@
       
       .link-form{
                     margin-left: 20px !important;
-                    margin-top: 120px !important;
+                    margin-top: 60px !important;
                     float: left !important; 
                     font-family: verdana !important;
                     color: white !important;
@@ -132,13 +132,13 @@
           </ul> 
             
             <div>
-                <form class="form-inline my-2 my-lg-1">
+                <form class="form-inline my-2 my-lg-1" method="POST" action="pesquisar.php">
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                            <input class="form-control mr-2" name="pesquisar" type="search" placeholder="Buscar..." aria-label="Search">
                         </div>
                     </div>
-                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit" name="buscar">Pesquisar</button>
                 </form>
             </div>
           
@@ -188,10 +188,9 @@
                     <font color="white"><h1 align="center">Excluir conta:</h1></font>
                 <form action="deletar.php" method="POST">
 
-                        <input class="input-form" name="email" type="email" placeholder="Email" maxlength="40">
-                      
+                        <input class="input-form" name="email" type="email" placeholder="Email" maxlength="40">                      
                         <input class="input-form" name="senha" type="password" placeholder="Senha" maxlength="15">
-    
+                        <input class="input-form" name="confirmarSenha" type="password" placeholder="Confirmar Senha" maxlength="15">    
 			<input class="input-form" name="deletar" type="submit" value="Excluir">
                         
                 </form>

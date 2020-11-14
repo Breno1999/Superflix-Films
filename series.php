@@ -62,6 +62,10 @@
         background-color: black;
         color: white;
       }
+      
+      #carouselSite{
+          margin-top: 60px !important;
+      }
 
       .card{
         width: 600px;
@@ -120,7 +124,7 @@
         {
             session_unset();//remove todas as variáveis de sessão
             echo "<script>
-                alert('Esta página só pode ser acessada por usuário logado');
+                alert('Esta página só pode ser acessada por usuário logado!');
                 window.location.href = 'index.php';
                 </script>";
 
@@ -128,11 +132,12 @@
         $logado = $_SESSION['email'];
     ?>
 
-    <title>Séries</title>
+    
+    <title>SuperflixTorrents.com</title>
 
   </head>
   <body>
-  
+      
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-danger">
       <div class="container">
       
@@ -160,13 +165,13 @@
           </ul> 
             
             <div>
-                <form class="form-inline my-2 my-lg-1">
+                <form class="form-inline my-2 my-lg-1" method="POST" action="pesquisar.php">
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                            <input class="form-control mr-2" name="pesquisar" type="search" placeholder="Buscar..." aria-label="Search">
                         </div>
                     </div>
-                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit" name="buscar">Pesquisar</button>
                 </form>
             </div>
           
@@ -203,6 +208,18 @@
    <br>
    <br>
    <br>
+   <br>
+   <br>
+ 
+   
+   <div class="container" id="TituloCarousel">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="ml-0" align="left">Novidades da Semana:</h1>
+        
+      </div>
+    </div>
+  </div>    
 
    <div id="carouselSite" class="carousel slide" data-ride="carousel">
 

@@ -85,13 +85,13 @@
           </ul> 
             
             <div>
-                <form class="form-inline my-2 my-lg-1">
+                <form class="form-inline my-2 my-lg-1" method="POST" action="pesquisar.php">
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-label="Search">
+                            <input class="form-control mr-2" name="pesquisar" type="search" placeholder="Buscar..." aria-label="Search">
                         </div>
                     </div>
-                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit" name="buscar">Pesquisar</button>
                 </form>
             </div>
           
@@ -104,6 +104,8 @@
                 <a class="dropdown-item" href="#">Instagram</a>
               </div>
             </li>
+            
+            <div>
             
             <ul class="navbar-nav ml-5" id="Sair">
                 
@@ -130,8 +132,9 @@
    <br>
    <br>
    
-
-   <div id="container-form" class="container theme-showcase" role="main">
+   
+      <div id="container-form" class="container" role="main">
+       
       <div class="page-header">
         <h1 class="ml-0" align="left">Pagina de Contato</h1>
       </div>
@@ -175,10 +178,11 @@
         
           <input id="input-form" class="btn btn-success" type="submit" value="Enviar" onclick="return validar_form_contato()">
       </form>
-    </div>
+      </div>
+    
 
 
- 
+   
 
 
     <!-- Optional JavaScript -->
